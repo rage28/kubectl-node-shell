@@ -221,6 +221,7 @@ cat <<EOT
       {
         "securityContext": $security_context,
         "image": "$image",
+        "imagePullPolicy": "Always",
         "name": "$name",
         "stdin": true,
         "stdinOnce": true,
